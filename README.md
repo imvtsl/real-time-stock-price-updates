@@ -51,7 +51,7 @@ In this example, we are streaming price updates of Apple Inc (AAPL). Replace it 
 curl -N -i -H "Accept: text/event-stream" -H "Token: <Your API key>" -X GET "http://localhost:8080/projects/stocks/quotes/v1/subscribe/{username}/symbols/AAPL"
 
 Sample Output:
-<img src="./myimage.png">
+<img src="./stock_updates.png">
 
 # To test other APIs manually import the Postman collection located at:
 src/main/resources/API Rate Limiter.postman_collection.json
