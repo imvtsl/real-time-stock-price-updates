@@ -1,5 +1,5 @@
-# real-time-stock-updates
-REAL TIME STOCK UPDATES
+# real-time-stock-price-updates
+REAL TIME STOCK PRICE UPDATES
 
 The source repository for Real Time Stock price Updates project.
 
