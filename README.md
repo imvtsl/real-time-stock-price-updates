@@ -34,7 +34,7 @@ API key from finnhub.io
 **./gradlew build**
 
 
-#Command to run application:
+# Command to run application:
 **./gradlew bootRun**
 
 
@@ -51,7 +51,7 @@ In this example, we are streaming price updates of Apple Inc (AAPL). Replace it 
 curl -N -i -H "Accept: text/event-stream" -H "Token: <Your API key>" -X GET "http://localhost:8080/projects/stocks/quotes/v1/subscribe/{username}/symbols/AAPL"
 
 Sample Output:
-![](/Users/vavatsal/Desktop/Screenshot 2022-12-19 at 7.46.13 PM.png)
+<img src="./myimage.png">
 
 # To test other APIs manually import the Postman collection located at:
 src/main/resources/API Rate Limiter.postman_collection.json
