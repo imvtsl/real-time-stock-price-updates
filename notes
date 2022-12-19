@@ -1,0 +1,5 @@
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET "https://finnhub.io/api/v1/quote?symbol=AAPL&token=ce941daad3i49a9hktpgce941daad3i49a9hktq0"
+
+curl -i -H "Accept: text/event-stream" -H "Token: ce941daad3i49a9hktpgce941daad3i49a9hktq0" -X GET "http://localhost:8080/projects/stocks/quotes/v1/subscribe/imvtsl/AAPL"
+
+curl -N -i -H "Accept: text/event-stream" -H "Token: ce941daad3i49a9hktpgce941daad3i49a9hktq0" -X GET "http://localhost:8080/projects/stocks/quotes/v1/subscribe/imvtsl/symbols/AAPL"
