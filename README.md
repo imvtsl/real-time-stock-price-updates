@@ -54,7 +54,7 @@ Sample Output:
 <img src="./stock_updates.png">
 
 # To test other APIs manually import the Postman collection located at:
-src/main/resources/API Rate Limiter.postman_collection.json
+src/main/resources/Real Time Stock Price Updates.postman_collection.json
 
 
 # Logging levels:
